@@ -177,14 +177,14 @@
   display: flex;          /* flex ile yatay sıralama */
   justify-content: center; /* ortala */
   align-items: center;     /* dikey ortalama, opsiyonel */
-  gap: 8px;               /* sayfa linkleri arası boşluk */
+  gap: 6px;               /* sayfa linkleri arası boşluk */
   margin: 20px 0;         /* üst-alt boşluk */
 }
 
 /* Pagination linkleri */
 #pagination a.page-btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   text-decoration: none;
@@ -230,11 +230,33 @@
         grid-template-columns: 1fr 1fr;
         padding: 5px;
     }
+
+    #pagination a.page-btn {
+
+        display: inline-block;
+        padding: 2px 4px;
+    }
+
 } 
+
+@media( max-width: 349px){
+    .voice .voice-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }
+
+    #pagination a.page-btn {
+
+        display: inline-block;
+        padding: 2px 4px;
+    }
+
+}
 
 
 @media( max-width: 596px){
-    .voice .voice-item .item-image1{
+    .voice .voice-item .item-static{
         position: absolute;
         left: 0;
         top: 0;
@@ -248,7 +270,7 @@
 }
 
 @media( max-width: 596px){
-    .voice .voice-item .item-image2{
+    .voice .voice-item .item-animate{
         position: absolute;
         left: 0;
         top: 0;
@@ -263,7 +285,7 @@
 } 
 
 @media( max-width: 596px){
-    .voice .voice-item .item-image4{
+    .voice .voice-item .item-animate{
         position: absolute;
         left: 0;
         top: 0;
