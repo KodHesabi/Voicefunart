@@ -1,0 +1,184 @@
+[
+    {
+        "id": "btn1",  "name": "sate sate sate",  "img": { "static": "resim/meliodas.jpg" },
+        "audio": "audio/sate_sate_sate.mp3"
+    },
+
+    {
+
+        "id": "btn2",  "name": "tatakae tatakae", "img": {"static": "resim/eren.jpg" },
+        "audio": "audio/tatakae.mp3" 
+      },
+
+  
+    {
+        "id": "btn3",
+        "name": "I say disco",
+         "img": {"static": "resim/shinobigif.gif",
+         
+        "animate": [
+            { "src": "resim/shinobigif.gif", "duration": 4850 },
+            { "src": "resim/mitsurisigif.gif", "duration": 3750 },
+            { "src": "resim/nezukogif.gif", "duration": 3200 }
+        ]
+    },
+         "audio": "audio/demon slayer/I Say Disco You Say Party Demon Slayer Edition.mp3" 
+},
+
+
+    {
+
+        "id": "btn4",  "name": "baka baka bakaa", "img": {"static": "resim/bakaa/images.jpg" },
+        "audio": "audio/baka/konosuba.mp3" 
+      },
+   {
+
+        "id": "btn5",  "name": "okawai koto", "img": {"static": "resim/kaguya03.jpg" },
+        "audio": "audio/o_kawaii_koto_kaguya.mp3"
+      },
+
+    {
+
+        "id": "btn6",  "name": "ayayaa ayayaa", "img": {"static": "resim/ayayya/ayaya-yeah1.gif" },
+        "audio": "audio/ayaya_girl.mp3" 
+    },
+    {
+
+        "id": "btn7",  "name": "Gambare Gabimaru", "img": {"static": "resim/gabimaru.jpg" },
+        "audio": "audio/gabimaru.mp3"
+      },
+
+    {
+
+        "id": "btn8",  "name": "ara sayanoraa", "img": {"static": "resim/ara-sayanora.jpg" },
+        "audio":"audio/ara ara/ara_ara_sayonara.mp3"
+      },
+    {
+
+        "id": "btn9",  "name": "ara araa", "img": {"static": "resim/akeno-ara2.jpg" },
+        "audio": "audio/ara ara/akeno_ara_ara.mp3"
+      },
+
+
+    {
+
+        "id": "btn10",  "name": "ho mete yaro", "img": {"static": "resim/sukuna2.jpg" },
+        "audio": "audio/jujutsu/Sukuna - You look happy.mp3"
+      },
+
+    {
+
+        "id": "btn11",  "name": "omae wa mou shindeiru", "img": {"static": "resim/omae-wa.jpg" },
+        "audio":"audio/omae_wa_mo_shindeiru.mp3"
+      },
+
+
+    {
+
+        "id": "btn12",  "name": "nanii", "img": {"static": "resim/nani.jpg" },
+        "audio": "audio/nani_anime.mp3"
+      },
+
+    {
+
+        "id": "btn13",  "name": "yare yare", "img": {"static": "resim/gojo-maceraları.jpg" },
+        "audio": "audio/yare_yare_daze.mp3" 
+      },
+
+    {
+
+        "id": "btn14",  "name": "moshi moshii", "img": {"static": "resim/moshi-moshi.jpg" },
+        "audio": "audio/demon slayer/moshi_moshi.mp3"
+      },
+
+    {
+
+        "id": "btn15",  "name": "ram and rem", "img": {"static": "resim/rem-ram1.jpg" },
+        "audio": "audio/re-zero/Rem and Ram.mp3"
+      },
+
+    {
+
+        "id": "btn16",  "name": "Mary Saotome", "img": {"static": "resim/bakaa/mary.jpg" },
+        "audio": "audio/baka/mary_saotome.mp3"
+      },
+
+    {
+
+        "id": "btn17",  "name": "tabii efendim!", "img": {"static": "resim/spiderman.jpg" },
+        "audio": "audio/tabi_efendim.mp3" 
+      },
+    
+    {
+
+        "id": "btn18",  "name": "Bakaa", "img": {"static": "resim/bakaa/bunyy.jpg" },
+        "audio": "audio/baka/bunny.mp3"
+      },
+
+    {
+
+        "id": "btn19",  "name": "gambare gambare", "img": {"static": "resim/sukuna01.jpg" },
+        "audio": "audio/jujutsu/gambare_gambare.mp3" 
+      },
+
+    {
+
+        "id": "btn20",  "name": "baka", "img": {"static": "resim/bakaa/baka.gif" },
+        "audio": "audio/baka/baka.mp3"
+      },
+
+    {
+
+        "id": "btn21",  "name": "like a baka", "img": {"static": "resim/bakaa/like-a-baka.jpg" },
+        "audio": "audio/baka/smell_like_a_baka.mp3"
+      },
+
+    {
+
+        "id": "btn22",  "name": "ya metee kudasai", "img": {"static": "resim/maxresdefault.jpg",
+        "animate":[
+
+            { "src" :"resim/YAMETE-kudasai-Dayı_0_.gif", "duration":5000}
+          ]
+
+        },
+        "audio": "audio/yamete_kudasai.mp3" 
+    },
+
+    {
+
+        "id": "btn23",  "name": "nee sama", "img": {"static": "resim/rem.jpg" },
+        "audio": "audio/re-zero/Nee-sama Nee-sama.mp3" 
+      },
+
+    {
+
+        "id": "btn24",  "name": "shikanoko noko", "img": {"static": "resim/shika-noko/shika-noko.jpg",
+        "animate":[
+            {"src":"resim/shika-noko/shikanoko-by-murya.gif", "duration":8000 }
+        ]
+     },
+        "audio": "audio/shika noko.mp3"
+    
+    },
+
+
+    {
+
+        "id": "btn25",  "name": "Naoya slap", "img": {"static": "resim/naoya/naoya-slap.jpg",
+            "animate":[
+                {"src":"resim/naoya/naoya-tokat2.gif" , "duration":3000}
+            ]
+
+        },
+        "audio": "audio/sate_sate_sate.mp3" 
+    
+    
+    }
+
+        
+
+    
+
+
+]

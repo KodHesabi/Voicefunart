@@ -1,0 +1,125 @@
+/*! Base başlangıç */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* 
+.img-fluid{
+    width: 100%;
+} */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
+  outline: none;
+  padding: 8px 8px 8px 15px;
+  border: 1px solid #dee0ea !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  background-color: yellow !important;
+  border: 1px solid gray;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.btn {
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid black;
+  transition: 0.2 ease all;
+
+  
+}
+
+.btn-primary {
+  background-color:yellow;
+ /*  background-color: darkslategray; */ 
+  color: black;
+  border-color: #1367ef;
+  transition: 0.2s ease all;
+  
+}
+
+.btn-primary:hover {
+  background-color:darkviolet;
+  /* background-color: #fff; */ /* YORUM SATIRLARI İLK HALLERİDİR. */
+ /*  color:  darkslategray;  */
+ color: white;
+}
+
+
+.logo {
+  width: 85px;
+  height: 70px;
+
+  color:  darkslategray;
+
+  font-size: 28px;
+  border-radius: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+/*! Base bitiş */
+
+/* ? responsive */
+@media (max-width:1200px){
+    .container {
+        max-width: 992px;
+       
+      }
+}
+
+@media (max-width:992px){
+    .container {
+        max-width: 768px;
+       
+      }
+}
+
+@media (max-width:768px){
+    .container {
+        max-width: 576px;
+       
+      }
+}

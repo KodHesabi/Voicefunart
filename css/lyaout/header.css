@@ -1,0 +1,288 @@
+.voice{
+   /*  margin-top: 30px; */
+    margin-bottom: 10px;
+    background-color:ghostwhite ;
+    
+}
+/*! Section */
+.header-left .logo{
+    margin: 0px 40px;
+    
+    
+}
+
+.section-title{
+    text-align: center;
+    
+    margin-bottom: 10px;
+}
+
+.section-title h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.section-title p{
+    font-size: 22px;
+    opacity: 0.8;
+    margin-bottom: 75px; 
+}
+
+.section-title p button{
+    background-color:yellow;
+    color: black;
+    border-color: #1367ef;
+    font-size: 22px;
+    font-weight: 400; 
+    display: inline-block;
+}
+.section-title p button:hover{
+   
+    background-color:darkviolet;
+    color: white;
+}
+
+.voice .clicksayac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+}
+
+/*! section bitiş */
+.voice .voice-list{
+    gap: 30px;
+    
+
+}
+
+.voice .voice-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+
+.voice .voice-item{
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+    position: relative;
+
+}
+
+.voice .voice-image{
+
+    position: relative;
+    width: 100%;
+    width: 225px;
+    height: 225px;
+    
+}
+.voice .voice-item img{
+
+  width: 100%;
+  height: 100%;
+
+ 
+}
+
+.voice .voice-image .voice-static,
+.voice .voice-image .voice-animate{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.1s ease;
+
+}
+
+
+
+.voice .voice-image .voice-static {
+    opacity: 1;
+    z-index: 1;
+   
+   
+}
+
+.voice .voice-image .voice-animate{
+    
+    opacity: 0;
+    z-index: 2;
+   
+}
+
+
+
+/*
+.voice .voice-item .item-image1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 225px;
+    max-height: 225px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.voice .voice-item .item-image2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 225px;
+    max-height: 225px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+
+.voice .voice-item .item-image3{
+ 
+    max-width: 225px;
+    max-height: 225px;
+    height: 100%;
+    width: 100%;
+    opacity:1;
+}
+
+
+.voice .voice-item .item-image4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 225px;
+    max-height: 225px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+*/
+
+
+.voice-item .voice-info{
+    margin-top: 10px;
+}
+
+/* Pagination container */
+#pagination {
+  display: flex;          /* flex ile yatay sıralama */
+  justify-content: center; /* ortala */
+  align-items: center;     /* dikey ortalama, opsiyonel */
+  gap: 8px;               /* sayfa linkleri arası boşluk */
+  margin: 20px 0;         /* üst-alt boşluk */
+}
+
+/* Pagination linkleri */
+#pagination a.page-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+#pagination a.page-btn:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+#pagination a.page-btn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+#pagination a.page-btn.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+/*? Responsive */
+@media( max-width: 992px){
+    .voice .voice-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media( max-width: 596px){
+    .voice .voice-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5px;
+    }
+} 
+
+
+@media( max-width: 596px){
+    .voice .voice-item .item-image1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 225px;
+        max-height: 205px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+}
+
+@media( max-width: 596px){
+    .voice .voice-item .item-image2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 225px;
+        max-height: 205px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+
+} 
+
+@media( max-width: 596px){
+    .voice .voice-item .item-image4{
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 225px;
+        max-height: 200px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+
+
