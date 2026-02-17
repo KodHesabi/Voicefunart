@@ -77,9 +77,9 @@
 .voice .voice-image{
 
     position: relative;
-  
+    width: 100%;
     width: 225px;
-    height: 250px;
+    height: 225px;
     
 }
 .voice .voice-item img{
