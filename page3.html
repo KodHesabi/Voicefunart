@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime&Voice</title>
+    <!--! Boostrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5LWTZZC7");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--! Boostrap CDN -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body data-page="3">
+    <!--! Sesler -->
+    <audio id="btn_baslangic_sesi">
+      <source src="audio/Uwu Message.mp3" />
+    </audio>
+
+    <audio id="btn21_sesi">
+      <source src="audio/baka/smell_like_a_baka.mp3" />
+    </audio>
+
+    <audio id="btn22_sesi">
+      <source src="audio/yamete_kudasai.mp3" />
+    </audio>
+
+    <audio id="btn23_sesi">
+      <source src="audio/re-zero/Nee-sama Nee-sama.mp3" />
+    </audio>
+
+    <audio id="btn24_sesi">
+      <source src="audio/shika noko.mp3" />
+    </audio>
+
+    <audio id="btn25_sesi">
+      <source src="audio/sate_sate_sate.mp3" />
+    </audio>
+
+    <!--! Sesler Bitiş -->
+
+    <!--! Hedaer Başlangıç -->
+
+    <!--! Karekterler Başlangıc -->
+    <section class="voice">
+      <div class="container">
+        <div class="header-left">
+          <a href="page1.html" class="logo">Anime&Voice</a>
+        </div>
+        <div class="section-title">
+          <h2>Hoşgeldin</h2>
+          <p>
+            Hoşuna gidecek sesler emrine amade
+            <button id="btn_baslangic" class="btn btn-primary">uwuu!</button>
+          </p>
+        </div>
+        <div class="clicksayac" id="sayitut">...</div>
+        <div class="voice-wrapper">
+          <!--! voice search start  -->
+          <div class="voice-search">
+            <form class="search-form">
+              <input id="searchInput" type="text" placeholder="ses arayın" />
+              <button>
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+            <div class="search-results"></div>
+          </div>
+          <!--! voice search end  -->
+
+          <!--? elementler Başlangıç -->
+
+          <ul class="voice-list">
+
+            <li class="voice-item" type="item21">
+              <div class="voice-image">
+                <img
+                  src="resim/bakaa/like-a-baka.jpg"  alt=""  class="voice-static" >
+              </div>
+              <div class="voice-info">
+                <button id="btn21" class="btn btn-primary" name="like a baka">
+                  like a baka
+                </button>
+              </div>
+            </li>
+
+            <li class="voice-item" type="item22">
+              <div class="voice-image">
+                <img src="resim/maxresdefault.jpg" alt="" class="voice-static" />
+                <img
+                  src="resim/YAMETE-kudasai-Dayı_0_.gif"  alt=""  class="voice-animate" data-duration="5000"  />
+              </div>
+              <div class="voice-info">
+                <button
+                  id="btn22" class="btn btn-primary" name="ya metee kudasai" data-animate="true">
+                  ya metee kudasai
+                </button>
+              </div>
+            </li>
+
+            <li class="voice-item" type="item23">
+              <div class="voice-image">
+                <img src="resim/rem.jpg" alt="" class="voice-static" />
+              </div>
+              <div class="voice-info">
+                <button id="btn23" class="btn btn-primary" name="nee sama">
+                  nee sama
+                </button>
+              </div>
+            </li>
+
+            <li class="voice-item" type="item24">
+              <div class="voice-image">
+                <img
+                  src="resim/shika-noko/shika-noko.jpg" alt="" class="voice-static" />
+                <img
+                  src="resim/shika-noko/shikanoko-by-murya.gif"  alt="" class="voice-animate"  data-duration="8000"/>
+              </div>
+              <div class="voice-info">
+                <button id="btn24" class="btn btn-primary" name="shikanoko noko" data-animate="true">
+                  shikanoko noko
+                </button>
+              </div>
+            </li>
+
+            <li class="voice-item" type="item25">
+              <div class="voice-image">
+                <img src="resim/naoya/naoya-slap.jpg" alt="" class="voice-static" />
+                <img src="resim/naoya/naoya-tokat2.gif" alt="" class="voice-animate"  data-duration="3000" />
+              </div>
+              <div class="voice-info">
+                <button id="btn25" class="btn btn-primary" name="Naoya slap" data-animate="true">
+                  Naoya slap
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div id="pagination"></div>
+
+    
+
+    <!--? elementler Bitiş -->
+
+    <!--! karekterler Bitiş -->
+
+    <!--! Hedaer Bitiş -->
+
+    <!--? Footer başlangıç -->
+    <section class="footer">
+      <div class="container">
+        <div class="subscribe-wrapper">
+          <div class="footer-top">
+            <a href="page1.html" class="logo">Anime&Voice</a>
+          </div>
+
+          <div class="footer-info">
+            <a href="https://www.instagram.com/ainz_samaa31/">
+              <i class="bi bi-instagram"> Ainz_Sama</i>
+            </a>
+
+            <a href="https://github.com/KodHesabi/FunArt">
+              <i class="bi bi-github"> KodFun</i>
+            </a>
+
+            <p>
+              Hoşunuza gittiyse Nice
+              <i class="bi bi-hearts"></i>
+            </p>
+          </div>
+
+          <div class="site-copyright">
+            <p>Copyright 2023 © FUNART. Powered by Kürşat T..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--? Footer Bitiş -->
+
+   
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5LWTZZC7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script src="main.js" ></script>
+    <script>
+      renderPagination(3, 30); // aktif sayfa ,toplam sayfa = 30
+</script>
+  </body>
+</html>
